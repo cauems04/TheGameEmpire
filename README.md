@@ -13,6 +13,6 @@
     ![imgxampp](https://github.com/cauems04/TheGameEmpire/assets/136491175/7d822ae4-2cee-4dda-868e-8b95f8d3703b)
     <p>também é importante clicar no admin ao lado do MySql, ao clicar, abrirá uma página no google, nela é necessário que você crie um banco de dados chamado "thegameempire", e uma tabela "usuarios" com os seguintes atributos: "Id(primary key, auto_increment, not null)", "Nome", "Email(not null)", "Celular", e "Senha(not null)"</p>
     ![imgbd](https://github.com/cauems04/TheGameEmpire/assets/136491175/584c4a68-3f6a-4171-bba3-0823edcaaa38)
-    <p>Após isso, basta colocar o seguinte endereço na barra de pesquisa superior do navegador = "http://localhost/thegameempire/home.html" ou "http://localhost/thegameempire/home.html", e testar o site como quiser.</p>
+    <p>Após isso, basta colocar o seguinte endereço na barra de pesquisa superior do navegador = "http://localhost/TheGameEmpire/home.html" ou "http://localhost/TheGameEmpire/home.html", e testar o site como quiser.</p>
   </body>
 </html
