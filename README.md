@@ -7,7 +7,7 @@
     
   </head>
   <body>
-    <p>Para rodar o site, inicalmente é necessario que você faça download dos arquivos aqui no git hub do TheGameEmpire, e que você tenha/instale o xampp com phpmyadmin, para o funcionamento das páginas e do banco de dados</p>
+    <p>Para rodar o site, inicalmente é necessario que você faça download dos arquivos aqui no git hub do TheGameEmpire, e que você tenha/instale o xampp com phpmyadmin, para o funcionamento das páginas e do banco de dados. obs:o nome do arquivo baixado aqui deve ser exatamente = "TheGameEmpire", se instalar com outo nome, é necessário altera-lo</p>
     <p>Agora, é necessário que você acesse o arquivo do xampp no explorador de arquivos, vá para \xampp\htdocs e coloque o arquivo do TheGameEmpire dentro da pasta htdocs, contendo todos os arquivos e códigos feitos no download</p>
     <p>Agora é necessário que você execute o XAMPP control panel, ao executar você irá se deparar com a tela do xampp, basta clicar no start tanto do apache, quanto do MySql</p>
     ![imgxampp](https://github.com/cauems04/TheGameEmpire/assets/136491175/7d822ae4-2cee-4dda-868e-8b95f8d3703b)
