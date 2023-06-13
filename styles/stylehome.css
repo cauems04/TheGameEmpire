@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto&display=swap');
+
+*{
+   padding:0px;
+   margin:0px;
+}
+
+body{
+    box-sizing:border-box;
+    position:relative;
+    background-color:#000000;
+}
+.fundoimg{
+    position: absolute;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+
+.cabecalho{
+    position:relative;
+    display:flex;
+    background-color:#53E0DB;
+    height:121px;
+    justify-content:space-between;
+    align-items:center;
+    padding:0% 3%;
+    z-index:2;
+}
+.cabecalho__titulo{
+    font-size:40px;
+    color:#000000;
+    text-decoration:none;
+    font-family: 'Krona One', sans-serif;
+}
+.cabecalho__cadastro{
+    font-size:32px;
+    color:#000000;
+    text-decoration:none;
+    font-family: 'Krona One', sans-serif;
+}
+
+
+.conteudo__lancamento{
+    position:relative;
+    display:flex;
+    box-sizing:border-box;
+    justify-content:space-between;
+    margin:4% 10%;
+    z-index:2;
+}
+.conteudo__lancamento__secao{
+    display:flex;
+    background-color:rgb(18, 18, 18, 0.5);
+    text-align:center;
+    flex-direction:column;
+    gap:40px;
+    padding: 20px 120px;
+    border: 8px solid #78FFFA;
+    border-radius:40px;
+}
+    .conteudo__lancamento__secao__titulo{
+        font-size:40px;
+        color:#78FFFA;
+        font-family: 'Krona One', sans-serif;
+    }
+    .conteudo__lancamento__secao__nome{
+        font-size:36px;
+        color:#FFFFFF;
+        text-decoration:none;
+        font-family: 'Krona One', sans-serif;
+    }
+    .conteudo__lancamento__secao__nome:hover{
+        color:#78FFFA;
+    }
+    .conteudo__lancamento__secao__texto{
+        font-size:26px;
+        color:#FFFFFF;
+        font-family: 'Roboto', sans-serif;
+    }
+
+.conteudo__desenvolvimento{
+    position:relative;
+    box-sizing:border-box;
+    z-index:2;
+}
+    .conteudo__desenvolvimento__titulo{
+        font-size:40px;
+        color:#4C9DED;
+        text-align:center;
+        font-family: 'Krona One', sans-serif;
+    }
+    .conteudo__desenvolvimento__jogos{
+        display:flex;
+        justify-content:space-around;
+        margin-top:20px;
+    }
+    .conteudo__desenvolvimento__jogos__info{
+        display:flex;
+        background-color:rgb(18, 18, 18, 0.5);
+        padding:10px;
+        padding-bottom:80px;
+        flex-direction:column;
+        text-align:center;
+        border: 8px solid #4C9DED;
+        border-radius:30px;
+    }
+    .conteudo__desenvolvimento__jogos__info__nome{
+        font-size:30px;
+        color:#FFFFFF;
+        text-decoration:none;
+        padding-top:20px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .conteudo__desenvolvimento__jogos__info__nome:hover{
+        color:#78FFFA;
+    }
+    .conteudo__desenvolvimento__jogos__mensagem{
+        display:flex;
+        background-color:rgb(18, 18, 18, 0.5);
+        padding:60px;
+        padding-top:90px;
+        text-align:center;
+        border: 8px solid #E07169;
+        border-radius:30px;
+    }
+    .conteudo__desenvolvimento__jogos__mensagem__texto{
+        font-size:30px;
+        color:#FFFFFF;
+        font-family: 'Krona One', sans-serif;
+    }
+
+
+    .rodape{
+        display:flex;
+        position:relative;
+        top:60px;
+        background-color:#000000;
+        height:50px;
+        align-items:center;
+        justify-content:center;
+        z-index:2;
+    }
+    .rodape__texto{
+        font-size:22px;
+        color:#FFFFFF;
+        font-family: 'Roboto', sans-serif;
+    }

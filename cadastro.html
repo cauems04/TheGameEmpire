@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles/stylecadastro.css">
+</head>
+<body>
+    <img class="fundoimg" src="imagens/fundo.jpg" alt="Fundo">
+    <header class="cabecalho">
+        <a class="cabecalho__titulo" href="home.html">The Game Empire</a>
+    </header>
+    <main class="conteudo">
+        <div class="conteudo__cadastro">
+            <h1 class="conteudo__cadastro__titulo">Realize seu cadastro</h1>
+            <form class="conteudo__cadastro__info" method="POST" action="processa.php">
+                <label class="conteudo__cadastro__info__pergunta">Nome</label>
+                <input class="conteudo__cadastro__info__infos" type="text" name="nome" id="nome" placeholder="Digite seu nome"></input>
+                <label class="conteudo__cadastro__info__pergunta">E-mail</label>
+                <input class="conteudo__cadastro__info__infos" type="email" name="email" placeholder="Digite seu e-mail"></input>
+                <label class="conteudo__cadastro__info__pergunta">Numero do celular</label>
+                <input class="conteudo__cadastro__info__infos" type="number" name="numero" placeholder="Digite seu número do celular"></input>
+                <label class="conteudo__cadastro__info__pergunta">Senha</label>
+                <input class="conteudo__cadastro__info__infos" type="password" name="senha" placeholder="Digite sua senha"></input>
+                <input class="conteudo__cadastro__info__botao" type="submit" value="Cadastrar">
+            </form>
+        </div>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">Desenvolvido por grupo The Game Empire</p>
+    </footer>
+</body>
+</html>

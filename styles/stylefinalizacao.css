@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto&display=swap');
+
+*{
+   padding:0px;
+   margin:0px;
+}
+
+body{
+    box-sizing:border-box;
+    position:relative;
+    background-color:#000000;
+}
+.fundoimg{
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+
+.cabecalho{
+    position:relative;
+    display:flex;
+    background-color:#53E0DB;
+    height:121px;
+    justify-content:space-between;
+    align-items:center;
+    padding:0% 3%;
+    z-index:2;
+}
+.cabecalho__titulo{
+    font-size:40px;
+    color:#000000;
+    text-decoration:none;
+    font-family: 'Krona One', sans-serif;
+}
+
+
+.conteudo{
+    display:flex;
+    position:relative;
+    margin-top:4%;
+    justify-content:center;
+    z-index:2;
+}
+    .conteudo__finalizacao{
+        display:flex;
+        background-color:rgb(18, 18, 18, 0.6);
+        text-align:center;
+        padding:20px 100px;
+        border: 8px solid #78FFFA;
+        border-radius:40px;
+        flex-direction:column;
+        gap:30px;
+    }
+    .conteudo__finalizacao__titulo{
+        color:#FFFFFF;
+        font-size:36px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .conteudo__finalizacao__mensagem{
+        color:#FFFFFF;
+        font-size:20px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .conteudo__finalizacao__botao{
+        color: #78FFFA;
+        background-color:#000000;
+        font-size:40px;
+        padding:10px;
+        text-decoration:none;
+        border: 4px solid #78FFFA;
+        border-radius:40px;
+        font-family: 'Krona One', sans-serif;
+    }
+	.conteudo__finalizacao__botao{
+		background-color:#181818;
+	}
+
+
+    .rodape{
+        display:flex;
+        position:relative;
+        background-color:#000000;
+        padding-top:200px;
+        height:50px;
+        align-items:center;
+        justify-content:center;
+        z-index:2;
+    }
+    .rodape__texto{
+        font-size:22px;
+        color:#FFFFFF;
+        font-family: 'Roboto', sans-serif;
+    }

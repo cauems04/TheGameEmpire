@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto&display=swap');
+
+*{
+   padding:0px;
+   margin:0px;
+}
+
+body{
+    box-sizing:border-box;
+    position:relative;
+    background-color:#000000;
+}
+.fundoimg{
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+
+.cabecalho{
+    position:relative;
+    display:flex;
+    background-color:#53E0DB;
+    height:121px;
+    justify-content:space-between;
+    align-items:center;
+    padding:0% 3%;
+    z-index:2;
+}
+.cabecalho__titulo{
+    font-size:40px;
+    color:#000000;
+    text-decoration:none;
+    font-family: 'Krona One', sans-serif;
+}
+.cabecalho__cadastro{
+    font-size:32px;
+    color:#000000;
+    text-decoration:none;
+    font-family: 'Krona One', sans-serif;
+}
+
+.conteudo{
+    display:flex;
+    position:relative;
+    margin-top:4%;
+    justify-content:center;
+    z-index:2;
+}
+    .conteudo__compra{
+        display:flex;
+        text-align:center;
+        padding:20px 100px;
+        flex-direction:column;
+        border: 8px solid #78FFFA;
+        border-radius:40px;
+        gap:30px;
+    }
+    .conteudo__compra__nome{
+        font-size:40px;
+        color:#FFFFFF;
+        font-family: 'Krona One', sans-serif;
+    }
+    .conteudo__compra__senha{
+        font-size:24px;
+        color:#FFFFFF;
+        font-family: 'Krona One', sans-serif;
+    }
+    .conteudo__compra__senha__input{
+        font-size:24px;
+        color:#FFFFFF;
+        background-color:rgb(18, 18, 18, 0.6);
+        padding:0px 10px;
+        border: 4px solid #78FFFA;
+        border-radius:40px;
+    }
+    .conteudo__compra__pagamento{
+        font-size:24px;
+        color:#FFFFFF;
+        font-family: 'Krona One', sans-serif;
+    }
+    .conteudo__compra__preco{
+        font-size:24px;
+        color:#FFFFFF;
+        font-family: 'Krona One', sans-serif;
+    }
+    .conteudo__compra__botao{
+        position:relative;
+        color: #78FFFA;
+        background-color:#000000;
+        font-size:30px;
+        padding:10px;
+        margin-top:20px;
+        text-decoration:none;
+        border: 4px solid #78FFFA;
+        border-radius:40px;
+        bottom:10px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .conteudo__compra__botao:hover{
+        background-color:#181818;
+    }
+
+
+    .rodape{
+        display:flex;
+        position:relative;
+        top:60px;
+        background-color:#000000;
+        height:50px;
+        align-items:center;
+        justify-content:center;
+        z-index:2;
+    }
+    .rodape__texto{
+        font-size:22px;
+        color:#FFFFFF;
+        font-family: 'Roboto', sans-serif;
+    }

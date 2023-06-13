@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Infos</title>
+    <link rel="stylesheet" href="styles/stylecompra.css">
+</head>
+<body>
+    <img class="fundoimg" src="imagens/fundo.jpg" alt="Fundo">
+    <header class="cabecalho">
+        <a class="cabecalho__titulo" href="home.html">The Game Empire</a>
+        <a class="cabecalho__cadastro" href="cadastro.html">Cadastro</a>
+    </header>
+    <main class="conteudo">
+        <form class="conteudo__compra" method="POST" action="testecompra.php">
+            <h1 class="conteudo__compra__nome">Nome do jogo</h1>
+			<p class="conteudo__compra__senha">
+				e-mail:
+                <input class="conteudo__compra__senha__input" type="email" name="email"></input></p>
+            <p class="conteudo__compra__senha">
+				senha:
+                <input class="conteudo__compra__senha__input" type="password" name="senha"></input></p>
+            <p class="conteudo__compra__pagamento">Pix / Cartão</p>
+            <p class="conteudo__compra__preco">R$10,00</p>
+            <input class="conteudo__compra__botao" href="finalizacao.html" type="submit" name="submit" value="Comprar"></input>
+        </form>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">Desenvolvido por grupo The Game Empire</p>
+    </footer>
+</body>
+</html>

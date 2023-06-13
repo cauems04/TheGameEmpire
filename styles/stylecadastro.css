@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto&display=swap');
+
+*{
+   padding:0px;
+   margin:0px;
+}
+
+body{
+    box-sizing:border-box;
+    position:relative;
+    background-color:#000000;
+}
+.fundoimg{
+    position: absolute;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+
+.cabecalho{
+    position:relative;
+    display:flex;
+    background-color:#53E0DB;
+    height:121px;
+    justify-content:space-between;
+    align-items:center;
+    padding:0% 3%;
+    z-index:2;
+}
+    .cabecalho__titulo{
+        font-size:40px;
+        color:#000000;
+        text-decoration:none;
+        font-family: 'Krona One', sans-serif;
+    }
+
+
+.conteudo{
+    display:flex;
+    position:relative;
+    margin-top:4%;
+    justify-content:center;
+    z-index:2;
+}
+    .conteudo__cadastro{
+        background-color:rgb(18, 18, 18, 0.6);
+        text-align:center;
+        padding:20px 100px;
+        border: 8px solid #78FFFA;
+        border-radius:40px;
+        flex-direction:column;
+    }
+    .conteudo__cadastro__titulo{
+        font-size:40px;
+        color:#FFFFFF;
+        margin-bottom:30px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .conteudo__cadastro__info{
+        display:flex;
+        font-size:26px;
+        text-align:center;
+        flex-direction:column;
+        gap:30px;
+    }
+    .conteudo__cadastro__info__pergunta{
+        font-size:20px;
+        color:#FFFFFF;
+        font-family: 'Krona One', sans-serif;
+    }
+    .conteudo__cadastro__info__infos{
+        color:#FFFFFF;
+        background-color:rgb(18, 18, 18, 0.6);
+        font-size:20px;
+        padding:0px 10px;
+        border: 4px solid #78FFFA;
+        border-radius:40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .conteudo__cadastro__info__botao{
+        color: #78FFFA;
+        background-color:#000000;
+        font-size:30px;
+        padding:10px;
+        margin-top:20px;
+        text-decoration:none;
+        border: 4px solid #78FFFA;
+        border-radius:40px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .conteudo__cadastro__info__botao:hover{
+        background-color:#181818;
+    }
+
+    .rodape{
+        display:flex;
+        position:relative;
+        top:60px;
+        background-color:#000000;
+        height:50px;
+        align-items:center;
+        justify-content:center;
+        z-index:2;
+    }
+    .rodape__texto{
+        font-size:22px;
+        color:#FFFFFF;
+        font-family: 'Roboto', sans-serif;
+    }
